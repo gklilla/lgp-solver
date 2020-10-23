@@ -1,7 +1,7 @@
 print('RGP SOLVER')
 print('Risolutore di Luoghi Geometrici Parametrici')
 print('')
-print('Ottieni un sistema nella seguente forma')
+print('Ottieni un sistema nella seguente forma:')
 print('ax = bt + c')
 print('dy = et + f')
 print('Dove t è il parametro')
@@ -31,7 +31,7 @@ def program():
 
   print('')
   print('Esplicito t nella prima equazione...')
-  print('t = ' + str(a) + 'x/' + str(b) + ' + ' + str(c))
+  print('t = (' + str(a) + 'x + ' + str(-c) + ')/' + str(b))
   print(str(d) + 'y = ' + str(e) + 't' + ' + ' + str(f))
   print('')
   print('Calcolo...')
